@@ -1,0 +1,60 @@
+*{font-family: sans-serif; color:whitesmoke; box-sizing: border-box; margin: 0%;}
+
+/* Color Pallet */
+:root{
+    --hc:#224668;
+    --bc:#4e8db4;
+
+}
+
+header {display: flex; justify-content: space-between; align-items: center; padding: .5% 2% .5% 1% ; background-color: var(--hc); color: #fff;
+}
+
+nav ul{display: flex; justify-content: space-between; width: 700px; list-style-type: none; font-size: 20px; text-decoration: none;
+}
+
+.bio{height:max-content; width: 100%; background-color: var(--bc); 
+}
+
+img{height:20%; width:20%; padding: 5% 5% 5% 0;}
+
+#Vince{float: left; width:500px; height: 500px; padding: 30px;
+}
+
+.bio h2{text-align: center; display: inline-block; padding-top: 80px; background-color:var(--bc); padding-bottom: 15px;
+}
+
+.bio p{padding: 0 40px 20px 0; 
+}
+
+footer{background-color: var(--hc); padding:20px;
+}
+footer h3{text-align: center;
+}
+
+#contact{text-align: center;
+}
+#contact input{color:var(--hc)}
+
+
+    /* This is for the games page */
+    #background{background-color: var(--bc); padding:35px;
+    }
+    iframe{padding:20px; width:800px; height: 600px; padding-bottom: 90px;;
+    }
+    #background h1{padding-bottom: 13px; 
+    }
+    #background h2{padding-top: 15px;
+    }
+    #background p{float: right; margin-right: 150px; font-size: 18px;line-height: 25px;
+    }
+    /* end of game page */
+
+
+    /* This is for the resume page */
+    embed{width:100%; height:1200px; padding: 20px;background-color: var(--bc);
+    }
+    /* End of Resume Page */
+
+
+    
