@@ -10,8 +10,8 @@
 /* body{background-color: var(--bc);} */
 body{background-color: white;}
 
-header {display: flex; justify-content: space-between; align-items: center; padding: .5% 2% .5% 1% ; background-color: var(--hc); color: lightgray;
-}
+header {display: flex; justify-content: space-between; align-items: center; padding: .5% 2% .5% 2% ; background-color: var(--hc); color: lightgray;
+} 
 
 nav ul{display: flex; justify-content: space-between; width: 700px; list-style-type: none; font-size: 20px; text-decoration: none;
 }
@@ -30,13 +30,13 @@ img{height:20%; width:20%; padding: 5% 5% 5% 0;}
 .bio p{padding: 0 40px 20px 0; color: gray;
 }
 
-footer{background-color: gray; padding:20px;
+footer{background-color: gray; padding:5px; height:250px;
 }
 
 footer h3{text-align: center;
 }
 
-#contact{text-align: center;
+#contact{text-align: center; height:250px;
 }
 #contact input{color:var(--hc)}
 
@@ -67,6 +67,7 @@ footer h3{text-align: center;
     /* This is for the WORK page */
     #work img{height: 300px; width: auto; padding:5px;}
     #work h2{margin-top:30px;}
+    #work img, h2{padding-left: 25px;}
     /* End of Work Page */
 
 
