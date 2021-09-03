@@ -7,13 +7,16 @@
 
 }
 
-header {display: flex; justify-content: space-between; align-items: center; padding: .5% 2% .5% 1% ; background-color: var(--hc); color: #fff;
+/* body{background-color: var(--bc);} */
+body{background-color: white;}
+
+header {display: flex; justify-content: space-between; align-items: center; padding: .5% 2% .5% 1% ; background-color: var(--hc); color: lightgray;
 }
 
 nav ul{display: flex; justify-content: space-between; width: 700px; list-style-type: none; font-size: 20px; text-decoration: none;
 }
 
-.bio{height:max-content; width: 100%; background-color: var(--bc); 
+.bio{height:max-content; width: 100%; 
 }
 
 img{height:20%; width:20%; padding: 5% 5% 5% 0;}
@@ -21,14 +24,15 @@ img{height:20%; width:20%; padding: 5% 5% 5% 0;}
 #Vince{float: left; width:500px; height: 500px; padding: 30px;
 }
 
-.bio h2{text-align: center; display: inline-block; padding-top: 80px; background-color:var(--bc); padding-bottom: 15px;
+.bio h2{text-align: center; display: inline-block; padding:4% 0% 3% 0%; color: gray;
 }
 
-.bio p{padding: 0 40px 20px 0; 
+.bio p{padding: 0 40px 20px 0; color: gray;
 }
 
-footer{background-color: var(--hc); padding:20px;
+footer{background-color: gray; padding:20px;
 }
+
 footer h3{text-align: center;
 }
 
@@ -38,23 +42,32 @@ footer h3{text-align: center;
 
 
     /* This is for the games page */
-    #background{background-color: var(--bc); padding:35px;
+    #background{padding:35px;
+    }
+    #background h1,h2,p{color:gray
     }
     iframe{padding:20px; width:800px; height: 600px; padding-bottom: 90px;;
     }
-    #background h1{padding-bottom: 13px; 
+    #background h1{padding-bottom: 13px; color:rgb(80, 80, 80);
     }
     #background h2{padding-top: 15px;
     }
     #background p{float: right; margin-right: 150px; font-size: 18px;line-height: 25px;
     }
+    
     /* end of game page */
 
 
     /* This is for the resume page */
-    embed{width:100%; height:1200px; padding: 20px;background-color: var(--bc);
+    embed{width:100%; height:1200px; padding: 20px;
     }
     /* End of Resume Page */
+
+
+    /* This is for the WORK page */
+    #work img{height: 300px; width: auto; padding:5px;}
+    #work h2{margin-top:30px;}
+    /* End of Work Page */
 
 
     
