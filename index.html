@@ -17,7 +17,7 @@
                 <li><a href="work.html">My Work</a></li>
                 <li><a href="resume.html">My Resume</a></li>
                 <li><a href="games.html">Scratch Games</a></li>
-                <li><a href="index.html Contact Me">Contact Me</a></li>
+                <li><a href="index.html #contact">Contact Me</a></li>
               </ul>
             </nav>
         </header>
@@ -32,37 +32,49 @@
              <p>While on this site you can see some of the games and projects I created, view my resume, and send me a message.
                  <br/>I look forward to hearing from you!
              </p>
-            <img src="Assets/Iowa.png" alt= "Iowa State Logo">
+            <img src="Assets/Iowa.png" alt= "Iowa State Logo" id="ISU">
             <img src="Assets/GATech.png" alt= "GA Tech Icon">
         </aside>
 
         <footer>
-            <div id="Contact Me">
-                <h3> Contact Me</h2>
-            </div>
+            
+            
             
             <div id="contact">
+                <br />
+            <h3> <u>Contact Me</u></h3>
+            <br/>
                 <form action="">
                     <label for="name">Name</label>
-                    <input type="text" id="name" name="name" placeholder="Vince Momot"><br>
+                    <input type="text" name="name" placeholder="Name"><br />
                     <label for="email">email:</label>
-                    <input type="text" id="email" name="email" placeholder="vincemomot@gmail.com"><br>
-                    <label for="Note ">Note  : </label>
+                    <input type="text" name="email" placeholder="email@gmail.com"><br />
+                    <label id="note" for="Note ">Note  : </label>
                     <textarea rows="3" cols="22"></textarea><br/>
-                    <!-- <input type="text" rows="3" id="Note " name="Note "><br> -->
-                    <input type="submit" value="Send">
-                </form> 
-            
+                    <input id="submit" type="submit" value="Send">  
+                </form>       
             </div>
+            <div id="contactinfo"> 
+                <br/><br/>
+                <h3><u>My Contact Information:</u></h3>
+                <br/>
+                <p>
+                    email: <a href="mailto:vincemomot@gmail.com">vincemomot@gmail.com</a>
+                    <br /><br/>
+                    Phone: 563-564-6126
+                </p>   
+                <img id="linkedin" src="Assets/Linkedin.png" alt="My Linkedin Profile">
+                <img id="github" src="Assets/GitHub.png" alt="My GitHub Profile">
+            </div>          
+        
+            
+            
+           
 
-        </footer>
+            
+        </footer>      
 
-
-
-       
-
-
-
+   
 
       </body>
 

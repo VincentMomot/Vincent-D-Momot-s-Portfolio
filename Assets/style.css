@@ -10,6 +10,8 @@
 /* body{background-color: var(--bc);} */
 body{background-color: white;}
 
+#ISU{margin-left: 50px;}
+
 header {display: flex; justify-content: space-between; align-items: center; padding: .5% 2% .5% 2% ; background-color: var(--hc); color: lightgray;
 } 
 
@@ -19,7 +21,7 @@ nav ul{display: flex; justify-content: space-between; width: 700px; list-style-t
 .bio{height:max-content; width: 100%; 
 }
 
-img{height:20%; width:20%; padding: 5% 5% 5% 0;}
+img{height:19%; width:19%; padding: 5% 5% 5% 0;}
 
 #Vince{float: left; width:500px; height: 500px; padding: 30px;
 }
@@ -30,16 +32,39 @@ img{height:20%; width:20%; padding: 5% 5% 5% 0;}
 .bio p{padding: 0 40px 20px 0; color: gray;
 }
 
-footer{background-color: gray; padding:5px; height:250px;
+footer{background-color: gray; padding:5px; height:250px; display: flex; justify-content: center;
 }
 
-footer h3{text-align: center;
+footer h3{text-align: left; padding-left: 80px;
 }
 
-#contact{text-align: center; height:250px;
+footer textarea{color:black;
 }
-#contact input{color:var(--hc)}
 
+form {padding:0; margin:0;}
+
+#note{float:inherit;
+}
+
+#linkedin{height:45px; width:130px; padding-left: 86px; padding-top: 0px;
+}
+
+#github{height:70px; width:80px; padding-top:7%;
+}
+
+#contact{text-align: left; height:250px; padding-left: 70px; justify-content: center;
+}
+
+#contact input{color:var(--hc)
+}
+
+#submit{margin-left: 100px;
+}
+
+#contactinfo p{padding-left: 80px; color:white; 
+}
+
+ul{width:400px}
 
     /* This is for the games page */
     #background{padding:35px;
