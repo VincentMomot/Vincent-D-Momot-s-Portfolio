@@ -24,9 +24,9 @@ Description: This website is to keep a log of my professional work for future re
 * better understanding of "border-box" and the box-model
 
 
-Click [here](https://vincentmomot.github.io/Vincent-D-Momot-s-Portfolio/index) to go to my Website. 
+Click [vincentmomot.github.io/Vincent-D-Momot-s-Portfolio](https://vincentmomot.github.io/Vincent-D-Momot-s-Portfolio/index) to go to my Website. 
 
 Screenshots of the site:
-![alt text](assets/mainpage.png)
-![alt text](assets/workpage.png)
-![alt text](assets/gamepage.png)
+![This is an image of my main page](assets/mainpage.png)
+![This is an image of my work page](assets/workpage.png)
+![This is an image of my games page](assets/gamepage.png)
