@@ -16,11 +16,11 @@ Website Features:
 
 
 What I learned from the creation of this site:
-*calling elements in the CSS document to target what I need changed
-*media queries' notation and functionality
-*embeding links into images
-*adding iframe elements to play Scratch games
-*better understanding of "border-box" and the box-model
++calling elements in the CSS document to target what I need changed
++media queries' notation and functionality
++embeding links into images
++adding iframe elements to play Scratch games
++better understanding of "border-box" and the box-model
 
 
 Link to the site:
