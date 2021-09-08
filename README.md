@@ -27,3 +27,6 @@ Description: This website is to keep a log of my professional work for future re
 Click [here](https://vincentmomot.github.io/Vincent-D-Momot-s-Portfolio/index) to go to my Website. 
 
 Screenshots of the site:
+![alt text](assets/mainpage.png)
+![alt text](assets/workpage.png)
+![alt text](assets/gamepage.png)
