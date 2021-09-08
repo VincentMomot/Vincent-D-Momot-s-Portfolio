@@ -1,8 +1,9 @@
-Vincent D-Momot's Portfolio
+# Vincent D-Momot's Portfolio
+***
 
 Description: This website is to keep a log of my professional work for future reference and to showcase my skills to future employers.
 
-Website Features:
+### Website Features:
 1) An Introduction page with Contact Information in the Footer
 2) A resume page for download access and in browser viewing.
 3) A games page which showcases two games I created from Scratch.
@@ -15,12 +16,12 @@ Website Features:
 
 
 
-What I learned from the creation of this site:
-+calling elements in the CSS document to target what I need changed
-+media queries' notation and functionality
-+embeding links into images
-+adding iframe elements to play Scratch games
-+better understanding of "border-box" and the box-model
+### What I learned from the creation of this site:
+* calling elements in the CSS document to target what I need changed
+* media queries' notation and functionality
+* embeding links into images
+* adding iframe elements to play Scratch games
+* better understanding of "border-box" and the box-model
 
 
 Link to the site:
