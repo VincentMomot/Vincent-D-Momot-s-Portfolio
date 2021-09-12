@@ -85,6 +85,7 @@ ul{width:400px}
     #work h2{margin-top:30px;}
     #work img, h2{padding-left: 25px;}
     #work p{margin-left: 25px;}
+    #pswd{border: 2px solid gray; padding: 0px; margin-left: 20px; size:50%}
     #black{color: gray;}
     /* End of Work Page */
 
