@@ -87,6 +87,7 @@ ul{width:400px}
     #work p{margin-left: 25px;}
     #pswd{border: 2px solid gray; padding: 0px; margin-left: 20px; size:50%}
     #black{color: gray;}
+    .git{color:gray; margin-left: 25px}
     /* End of Work Page */
 
 
@@ -115,4 +116,5 @@ ul{width:400px}
         }       
         #home{padding-right: 30px;
         }
+        #work img{max-width: 450px;height: auto;}
     }
