@@ -13,7 +13,8 @@ display: flex; flex-direction: column;}
 
 /* Spaces the ISU picture from my profile picture */
 #ISU{margin-left: 50px;}
-.GTISU{padding-bottom: 20px ;}
+.GTISU{padding-bottom: 20px ;
+padding-top: 2%;}
 
 header {display: flex; justify-content: space-between; align-items: center; padding: .5% 2% .5% 2% ; background-color: var(--hc); color: lightgray;
 } 
@@ -95,7 +96,7 @@ ul{width:400px}
     #work img{height: 300px; width: auto; padding:5px; width:50%; height: auto; padding: 5%;}
     #work h2{margin-top:30px;}
     #work img, h2{padding-left: 25px;}
-    #work p{margin-left: 25px;}
+    #work p{margin-left: 25px; width: 80%;}
     #pswd{border: 2px solid gray; padding: 0px; margin-left: 20px; size:50%}
     #black{color: gray;}
     .git{color:gray; margin-left: 25px}
